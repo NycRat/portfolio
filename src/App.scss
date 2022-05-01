@@ -1,0 +1,20 @@
+$text-color: white;
+$link-color: #e4ffa4;
+
+.App {
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 1.5vw);
+  color: $text-color;
+  ::selection {
+    color: $text-color;
+  }
+}
+
+.App-link {
+  color: $link-color;
+}
