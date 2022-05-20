@@ -42,3 +42,67 @@
   background-color: base.$dark-background-color;
   border-radius: 15px;
 }
+
+.hover-button {
+  transition: background-color 0.5s;
+  background-color: base.$background-color;
+}
+.hover-button:hover {
+  transition: background-color 0.5s;
+  background-color: base.$dark-background-color;
+}
+
+.main-page-redirect {
+  @extend .hover-button;
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  margin: 10px;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  h1 {
+    // width: 100%;
+    font-size: calc(10px + 2vw);
+    position: relative;
+  }
+}
+
+.page-redirect {
+  @extend .hover-button;
+  position: absolute;
+  bottom: 0;
+  width: 30%;
+  height: 20%;
+  margin: 10px;
+  border-radius: 20px;
+  h1 {
+    width: 100%;
+    font-size: calc(10px + 3vw);
+  }
+}
+
+.project-arrow {
+  @extend .hover-button;
+  width: 35%;
+  height: 20%;
+  bottom: 0;
+  position: absolute;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+// .page-redirect {
+//   transition: background-color 2s ease-out 100ms;
+//   :hover {
+//     background-color: white;
+//   }
+// };

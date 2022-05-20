@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "name": "Portfolio Site",
+      "description": "This is the site you are currently on! ",
+      "repo": "https://github.com/NycRat/portfolio"
+    },
+    {
+      "name": "Music Generator",
+      "description": "Music generator is a website that creates music with random notes. This project was first meant to be a desktop GUI application written in C++, but after working on it for a few weeks, I ended up rewriting it into a website.",
+      "repo": "https://github.com/NycRat/music-generator-site"
+    },
+    {
+      "name": "Todo List",
+      "description": "Simple todo list website, that also has accounts, and logins. I made this projects to learn the MERN stack, and CSS. I had previously used bootstrap for styling frontend, but I decided to try to learn CSS for this project.",
+      "repo": "https://github.com/NycRat/todo-list"
+    },
+    {
+      "name": "Birthday Countdown",
+      "description": "Website that displays a countdown of the closest birthday a database. This was a hackathon project I made during spring break. It was the first full stack web application I ever made. I had learned about databases, node, and express from this project.",
+      "repo": "https://github.com/NycRat/birthday-countdown"
+    },
+    {
+      "name": "3D Tic-tac-toe",
+      "description": "Website that plays tic tac toe, but in 3D. This was just a quick project to test out three.js. I had seen the library and I wanted to see what it could do, so I made this project in two days to test it out.",
+      "repo": "https://github.com/NycRat/tic-tac-toe"
+    },
+    {
+      "name": "Console Arcade",
+      "description": "An application that played multiple arcade games in the console. I created this as a hackathon project, and it was coded completely with C.",
+      "repo": "https://github.com/NycRat/console-arcade"
+    }
+  ]
+}
