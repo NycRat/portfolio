@@ -10,7 +10,6 @@ export interface ProjectInfo {
 }
 
 const ProjectPage = () => {
-
   const [projects, setProjects] = useState<Array<any>>([]);
 
   const [projectIndex, setProjectIndex] = useState(0);
@@ -42,7 +41,13 @@ const ProjectPage = () => {
             projectIndex === 0 ? projects.length - 1 : projectIndex - 1
           )
         }
-      />
+      >
+        <h3>
+          {projects.length > 0
+            ? projectIndex-1 >= 0 ? projects[projectIndex-1].name : projects[projects.length-1].name
+            : ""}
+        </h3>
+      </div>
       <div
         className="project-arrow right"
         onClick={() =>
@@ -50,8 +55,14 @@ const ProjectPage = () => {
             projectIndex === projects.length - 1 ? 0 : projectIndex + 1
           )
         }
-      />
-      <h1>Projects</h1>
+      >
+        <h3>
+          {projects.length > 0
+            ? projects[(projectIndex + 1) % projects.length].name
+            : ""}
+        </h3>
+      </div>
+      <h1 className="project-title">Projects</h1>
       <ProjectBlock {...projects[projectIndex]} />
     </div>
   );

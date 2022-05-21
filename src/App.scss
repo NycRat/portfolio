@@ -24,8 +24,15 @@
   color: base.$link-color;
 }
 
+.project-title {
+  position: absolute;
+  top: 20%;
+  font-size: calc(50px + 5vmin);
+}
+
 .project-block {
   @extend .centered;
+  background-color: base.$dark-background-color;
   h1 {
     font-size: calc(20px + 1.5vw);
     margin: 0.5%;
@@ -39,8 +46,10 @@
   padding: 10px;
   width: 60%;
   min-width: 250px;
-  background-color: base.$dark-background-color;
   border-radius: 15px;
+
+  position: absolute;
+  top: 40%;
 }
 
 .hover-button {
