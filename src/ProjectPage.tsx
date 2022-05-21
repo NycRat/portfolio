@@ -44,7 +44,9 @@ const ProjectPage = () => {
       >
         <h3>
           {projects.length > 0
-            ? projectIndex-1 >= 0 ? projects[projectIndex-1].name : projects[projects.length-1].name
+            ? projectIndex - 1 >= 0
+              ? projects[projectIndex - 1].name
+              : projects[projects.length - 1].name
             : ""}
         </h3>
       </div>

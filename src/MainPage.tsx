@@ -1,11 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { Vector2 } from "./App";
-
-interface PageInfo {
-  position: Vector2;
-  size: Vector2;
-  pageName: string;
-}
 
 const MainPage = () => {
   const navigate = useNavigate();
