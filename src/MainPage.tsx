@@ -5,8 +5,10 @@ const MainPage = () => {
 
   return (
     <div className="page">
-      <h1>Eric Xiao</h1>
-      <p>Fullstack Software developer</p>
+      <div className="main-page-title">
+        <h1>Eric Xiao</h1>
+        <p>Fullstack Software developer</p>
+      </div>
 
       <div className="page-redirect left" onClick={() => navigate("/projects")}>
         <h1>Projects</h1>

@@ -33,16 +33,19 @@
 .aboutme-title {
   position: absolute;
   top: 0;
-  font-size: calc(50px + 5vmin);
+  font-size: calc(50px + 5vw);
 }
 
 .aboutme-text {
   font-size: 25px;
   position: absolute;
-  text-align: left;
   left: 10%;
   top: 30%;
+  text-align: left;
   width: 35%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: base.$dark-background-color;
 }
 
 .aboutme-photo {
@@ -50,9 +53,38 @@
   right: 2%;
   bottom: 2%;
   width: calc(900px + 10%);
-  max-width: 45%;
+  max-width: 40%;
   border-radius: 100%;
   object-fit: contain;
+}
+
+// "MOBILE"
+@media screen and (max-width: 1000px) {
+  .aboutme-text {
+    font-size: calc(15px + 0.5vw);
+    position: absolute;
+    text-align: left;
+    width: 80%;
+    left: 7%;
+    top: 25%;
+  }
+
+  .aboutme-title {
+    top: 8%;
+    font-size: calc(40px + 5vw);
+  }
+
+  .aboutme-photo {
+    width: calc(400px + 10%);
+    max-width: 96%;
+  }
+}
+
+.main-page-title {
+  position: absolute;
+  background-color: base.$dark-background-color;
+  border-radius: 10%;
+  padding: 5%;
 }
 
 .project-block {

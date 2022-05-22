@@ -6,14 +6,14 @@
       "repo": "https://github.com/NycRat/portfolio"
     },
     {
+      "name": "Packing Some Smack!",
+      "description": "Fighting game with original characters; coded entirely with Java. I was the lead developer of this project which was made by the RHS Programming Club.",
+      "repo": "https://github.com/thyliverman/wegaming"
+    },
+    {
       "name": "Music Generator",
       "description": "Music generator is a website that creates music with random notes. This project was first meant to be a desktop GUI application written in C++, but after working on it for a few weeks, I ended up rewriting it into a website.",
       "repo": "https://github.com/NycRat/music-generator-site"
-    },
-    {
-      "name": "Todo List",
-      "description": "Simple todo list website, that also has accounts, and logins. I made this projects to learn the MERN stack, and CSS. I had previously used bootstrap for styling frontend, but I decided to try to learn CSS for this project.",
-      "repo": "https://github.com/NycRat/todo-list"
     },
     {
       "name": "Birthday Countdown",
@@ -29,6 +29,16 @@
       "name": "Console Arcade",
       "description": "An application that played multiple arcade games in the console. I created this as a hackathon project, and it was coded completely with C.",
       "repo": "https://github.com/NycRat/console-arcade"
+    },
+    {
+      "name": "RHS Discord Bot",
+      "description": "Very simple reminder discord bot. Stores reminders of servers in MongoDB database, and pings people when the reminder is set to go off.",
+      "repo": "https://github.com/thyliverman/rhs-discord-bot"
+    },
+    {
+      "name": "Todo List",
+      "description": "Simple todo list website, that also has accounts, and logins. I made this projects to learn the MERN stack, and CSS. I had previously used bootstrap for styling frontend, but I decided to try to learn CSS for this project.",
+      "repo": "https://github.com/NycRat/todo-list"
     }
   ]
 }

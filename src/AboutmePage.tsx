@@ -5,20 +5,18 @@ const AboutmePage = () => {
 
   return (
     <div className="page">
+      <h1 className="aboutme-title">Eric Xiao</h1>
+      <p className="aboutme-text">
+        My name is Eric. I am a 14 year old student and programmer. I have been
+        working on many different projects, mainly by myself. I use a variety of
+        languages such as Typescript, Javascript, C++, C, Java, and Python. You
+        can see some of my projects on my github, or the project page of this
+        website!
+      </p>
+      <img className="aboutme-photo" src="selfie.jpg" alt="eric_xiao" />
       <div className="main-page-redirect" onClick={() => navigate("/")}>
         <h1>Return</h1>
       </div>
-      <h1 className="aboutme-title">Eric Xiao</h1>
-      <p className="aboutme-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. A minus
-        reiciendis nisi veritatis facilis, sequi provident cupiditate, qui
-        deserunt doloribus fugit dignissimos aliquam nobis consectetur, fuga
-        debitis sit? Corporis, minus. Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Quo molestiae dolor ipsa, nam quae qui cumque vitae
-        dolores nisi, neque possimus excepturi pariatur molestias earum velit
-        quos fugit numquam asperiores?
-      </p>
-      <img className="aboutme-photo" src="selfie.jpg" alt="eric_xiao" />
     </div>
   );
 };

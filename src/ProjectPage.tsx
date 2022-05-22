@@ -31,9 +31,6 @@ const ProjectPage = () => {
 
   return (
     <div className="page">
-      <div className="main-page-redirect" onClick={() => navigate("/")}>
-        <h1>Return</h1>
-      </div>
       <div
         className="project-arrow left"
         onClick={() =>
@@ -66,6 +63,9 @@ const ProjectPage = () => {
       </div>
       <h1 className="project-title">Projects</h1>
       <ProjectBlock {...projects[projectIndex]} />
+      <div className="main-page-redirect" onClick={() => navigate("/")}>
+        <h1>Return</h1>
+      </div>
     </div>
   );
 };
