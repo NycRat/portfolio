@@ -39,6 +39,11 @@
       "name": "Todo List",
       "description": "Simple todo list website, that also has accounts, and logins. I made this projects to learn the MERN stack, and CSS. I had previously used bootstrap for styling frontend, but I decided to try to learn CSS for this project.",
       "repo": "https://github.com/NycRat/todo-list"
+    },
+    {
+      "name": "Global Chat",
+      "description": "Website with one chatbox. Other users on site will see messages sent by other users. Very simple with no login or user info, just messages. Coded and deployed in two days.",
+      "repo": "https://github.com/NycRat/global-chat"
     }
   ]
 }
